@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCYCONVERSION</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1>CURRENCY CONVERSION</h1>
+            <input type="number" placeholder="Enter Amount.." value="number" class="inputNumber">
+            <div class="dropdon"> 
+                <div class="from">
+                    <p>From</p>
+                    <div class="selectContainer">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                    <select name="From" id="">
+                        <option value="">USD</option>
+                        <option value="">PKR</option>
+                        <option value="">INR</option>
+                    </select>
+                </div>
+                </div>  
+                <i class="fa-solid fa-right-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="selectContainer">
+                        <img src="https://flagsapi.com/PK/flat/64.png" alt="">          
+                    <select name="To" id="">
+                        <option value="">PKR</option>
+                        <option value="">USD</option>
+                        <option value="">INR</option>
+                    </select>
+                </div>
+                </div>
+            </div>
+            <div class="masg">
+                1 USD = 280 PKR
+            </div>
+            <button>Gat Exchange Rate</button>
+        </div>
+    </form>
+
+</body>
+<script src="code.js"></script>
+<script src="script.js"></script>
+</html>
